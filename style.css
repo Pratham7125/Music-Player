@@ -1,0 +1,86 @@
+h1{
+    font-style:normal;
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.background-clip{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.container{
+    width: 400px;
+    height: 450px;
+    margin-left: 555px;
+    margin-top: 50px;
+    background-color: white;
+    align-items: center;
+    border-radius: 15%;
+}
+
+.song_info {
+    font-style: normal;
+    font-family: "fantasy";
+    color:rgb(48, 116, 185);
+    font-size-adjust: initial;
+    text-align: center;
+}
+
+.song_image{
+    height: 207px;
+    width: 228px;
+    margin-left: 88px;
+}
+
+.progress-container {
+    background: rgb(48, 116, 185);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 88px 20px;
+    height: 8px;
+    width: 57%;
+  }
+
+.progress {
+    background-color: black;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+.play{
+    border-radius: 50%;
+    padding: 13px;
+    background-color: rgb(188, 216, 245);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.next{
+    border-radius: 50%;
+    padding: 12px;
+    background-color: rgb(188, 216, 245);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.prev{
+    border-radius: 50%;
+    padding: 12px;
+    background-color: rgb(188, 216, 245);
+    margin-left: 123px;
+    cursor: pointer;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(40, 33, 48);
+    color:rgb(247, 245, 249);
+    text-align: center;
+}
